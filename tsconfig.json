@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["ESNext", "dom"],
+        "noImplicitAny": false,
+        "target": "es6",
+        "module": "es2020",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "declaration": false,
+        "importHelpers": true,
+        "skipLibCheck": true,
+    },
+    "include": ["src/**/*"]
+}
