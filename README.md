@@ -5,7 +5,7 @@ Steps:
 1. Download repository
 
 ```bash
-git clone https://github.com/gregberge/loadable-components.git
+git clone https://github.com/srinisoundar/loadable-server-side-rendering.git 
 ```
 
 2. Install project dependencies
