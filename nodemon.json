@@ -1,6 +1,7 @@
 {
-  "ignore": ["client", "public"],
-  "execMap": {
-    "js": "babel-node"
-  }
+  "watch": ["src"],
+  "ext": "ts, tsx, json",
+  "ignore": ["public", "lib"],
+  "exec": "npm run build && npm restart"
 }
+

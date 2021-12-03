@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nodemon src/server/main.js",
+    "dev": "nodemon",
     "build": "rm -Rf ./public && NODE_ENV=production npm run build:webpack && npm run build:lib",
     "build:webpack": "webpack",
     "build:lib": "babel src --out-dir lib --extensions \".ts,.tsx\"",
@@ -21,7 +21,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.6.0",
-    "nodemon": "^1.19.0",
+    "nodemon": "^2.0.15",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.2",
     "webpack": "^5.64.4",

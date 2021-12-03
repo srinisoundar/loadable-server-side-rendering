@@ -13,10 +13,9 @@ const getConfig = target => ({
   mode: development ? 'development' : 'production',
   target,
   entry: `./src/client/main-${target}.tsx`,
-      // file resolutions
-      resolve: {
-        extensions: [ '.ts', '.js', ".tsx" ],
-    },
+  resolve: {
+    extensions: [ '.ts', '.js', ".tsx" ],
+  },
   module: {
     rules: [
       {
